@@ -908,6 +908,7 @@ img {
   padding-right: 59px;
   background: url(/img/svg/arrow-right-ico.svg) no-repeat 95% center;
   transition: .2s all;
+  text-transform: uppercase;
 }
 
 .tour__link:hover,

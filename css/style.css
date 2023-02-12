@@ -507,6 +507,10 @@ html {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 *,
 *::before,
 *::after {
@@ -516,7 +520,7 @@ html {
 body {
   font-family: "Lato";
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.2;
   font-weight: normal;
   color: #102746;
@@ -539,8 +543,8 @@ img {
 
 .section__title {
   font-weight: 500;
-  font-size: 2.2rem;
-  line-height: 2.6rem;
+  font-size: 3.5rem;
+  line-height: 4.2rem;
   position: relative;
   padding-bottom: 10px;
 }
@@ -588,8 +592,8 @@ img {
 }
 
 .header__link {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   color: white;
   text-decoration: none;
 }
@@ -615,8 +619,8 @@ img {
 .intro__title {
   max-width: 619px;
   font-weight: 500;
-  font-size: 3.1rem;
-  line-height: 3.8rem;
+  font-size: 5rem;
+  line-height: 6rem;
   color: white;
   margin-bottom: 22px;
 }
@@ -624,8 +628,8 @@ img {
 .intro__subtitle {
   max-width: 546px;
   color: white;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   margin-bottom: 59px;
 }
 
@@ -644,13 +648,13 @@ img {
   padding-left: 43px;
   padding-bottom: 22px;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: #fff;
 }
 
 .search-form__field::placeholder {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: #fff;
 }
 
@@ -658,7 +662,7 @@ img {
   padding: 15px 39px;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   color: white;
   background: #1B7DFF;
   border: 0;
@@ -690,8 +694,8 @@ img {
 .benefits__title {
   width: 100%;
   font-weight: 500;
-  font-size: 2.2rem;
-  line-height: 2.6rem;
+  font-size: 3.5rem;
+  line-height: 4.2rem;
   padding: 93px 100px 88px 100px;
   position: absolute;
   top: 0;
@@ -723,15 +727,15 @@ img {
 
 .benefits__card-title {
   font-weight: 500;
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
   margin-bottom: 26px;
 }
 
 .benefits__card-desc {
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   margin-bottom: 39px;
 }
 
@@ -739,8 +743,8 @@ img {
   display: inline-block;
   padding-right: 59px;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   color: #006DFE;
   text-decoration: none;
   background: url(/img/svg/arrow-right-ico.svg) no-repeat 95% center;
@@ -776,8 +780,8 @@ img {
 
 .places__view-all {
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   color: #006DFE;
   text-decoration: none;
   background: url(/img/svg/arrow-right-ico.svg) no-repeat 95% center;
@@ -819,8 +823,8 @@ img {
 
 .places__card-title {
   font-weight: 700;
-  font-size: 3.1rem;
-  line-height: 3.8rem;
+  font-size: 5rem;
+  line-height: 6rem;
   color: #FFFFFF;
   position: absolute;
   bottom: 27px;

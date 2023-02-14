@@ -567,6 +567,13 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  transition: .2s all;
+  padding-bottom: 20px;
+  z-index: 12222;
+}
+
+.header__active {
+  background: #0E1D28;
 }
 
 .header__wrapper {
@@ -1014,3 +1021,4 @@ img {
 }
 
 /* Top styles end */
+

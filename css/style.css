@@ -1014,3 +1014,16 @@ img {
 }
 
 /* Top styles end */
+
+/* Video styles start */
+
+.video{
+  width: 100%''
+}
+
+.video__wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Video styles end */

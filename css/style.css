@@ -841,6 +841,7 @@ img {
 }
 
 .places__card_size_lg {
+  max-height: 350px;
   grid-column: span 3;
 }
 

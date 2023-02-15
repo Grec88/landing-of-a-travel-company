@@ -527,6 +527,7 @@ body {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -840,6 +841,7 @@ img {
 }
 
 .places__card_size_lg {
+  max-height: 350px;
   grid-column: span 3;
 }
 
@@ -949,7 +951,7 @@ img {
   margin-bottom: 50px;
 }
 
-.top__card{
+.top__card {
   display: flex;
   flex-direction: column;
 }
@@ -1016,9 +1018,97 @@ img {
   margin: auto 0 0 0;
 }
 
-.top__card-more:hover, .top__card-more:active, .top__card-more:focus{
+.top__card-more:hover,
+.top__card-more:active,
+.top__card-more:focus {
   background: #0e66da;
 }
 
 /* Top styles end */
 
+/* Video styles start */
+
+.video {
+  width: 100%;
+}
+
+.video__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video__item {
+  padding-top: 56.25%;
+}
+
+.video__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  display: none;
+  padding: 0;
+  width: 68px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.video__media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video__button-shape {
+  fill: #212121;
+  fill-opacity: 0.8;
+}
+
+.video__button-icon {
+  fill: #ffffff;
+}
+
+.video__button:focus {
+  outline: none;
+}
+
+.video:hover .video__button-shape,
+.video__button:focus .video__button-shape {
+  fill: #ff0000;
+  fill-opacity: 1;
+}
+
+/* Enabled */
+
+.video--enabled {
+  cursor: pointer;
+}
+
+.video--enabled .video__button {
+  display: block;
+}
+
+/* Video styles end */

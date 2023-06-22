@@ -29,16 +29,6 @@ The landing page is built using:
 - **TypeScript**: a superset of JavaScript that adds static typing and other features
 - **Webpack**: a module bundler and a build tool for JavaScript projects
 - **Babel**: a JavaScript compiler that allows using modern syntax and features
-- **ESLint**: a JavaScript linter that helps to find and fix code errors
-- **Prettier**: a code formatter that enforces a consistent style
-- **Husky**: a tool that enables running scripts on git hooks
-- **lint-staged**: a tool that runs linters on staged files
-- **Tailwind CSS**: a utility-first CSS framework for rapid UI development
-- **PostCSS**: a tool that transforms CSS with plugins
-- **Autoprefixer**: a PostCSS plugin that adds vendor prefixes to CSS rules
-- **CSSNano**: a PostCSS plugin that minifies CSS
-- **HTMLWebpackPlugin**: a Webpack plugin that simplifies creating HTML files
-- **CopyWebpackPlugin**: a Webpack plugin that copies files and folders to the output directory
 
 ## Credits
 
